@@ -1,0 +1,105 @@
+body{
+    background-color: #303030;
+}  
+.btn{ 
+    height: 100%; 
+ }
+ 
+/* .btn-outline-secondary {
+    
+} */
+
+h3{
+    color: aliceblue;
+}
+.dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 20px;
+}
+
+    .dropdown-content {           
+    align-items: center;
+    display: none;
+    position: absolute;
+    background-color: #303030; 
+    min-width: 100%;
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+    font-weight: 400;
+    font-family: system-ui;    
+    font-size: 12px;
+    align-items: center;    
+    color: #ffffff;
+    padding: 20px 50px;
+    text-decoration: none;
+    display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #0e0e0e6c;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+    li{
+        display: inline-block;
+        width: 100%;
+        padding-left: 0;
+        margin-left: -5px;
+        list-style: none;
+    }
+    
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+td{
+    color: aliceblue;
+}
+
+table, td {
+    border: 1px 
+    solid black;
+    padding: 4px; 
+    border-collapse: collapse
+} 
+    td:empty::before {
+        content: "No Data"
+    }
+
+#dealer_table{   
+    padding-top: 20px;
+    margin-top: 40px;
+    height: 100%;
+    width: 75%;
+    align-items: center;
+}
+
+h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    color: aliceblue;
+}
+
